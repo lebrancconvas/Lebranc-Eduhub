@@ -1,0 +1,20 @@
+{
+    "name": "Lebranc-Eduhub",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/lebrancconvas/Lebranc-Eduhub.git",
+    "author": "lebrancconvas <lebrancconvas@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*",
+        "services/*"
+    ],
+    "devDependencies": {
+        "lerna": "^5.1.4"
+    },
+    "scripts": {
+        "w:info": "yarn workspaces info",
+        "start:all": "lerna run start"
+    }
+}
